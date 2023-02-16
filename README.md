@@ -24,8 +24,10 @@ Database stores only one object - product:
 Client can create, update, query(all or by id), and delete any instance of an object.
 
 # Endpoints
+```
 GET /product
 GET /product/:id
 POST /product
 PUT /product/:id
 DELETE /product/:id
+```
